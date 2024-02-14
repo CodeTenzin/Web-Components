@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 62.5%;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #00ffff, #ff00c3);
+  /* -webkit-background-clip: text; */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
